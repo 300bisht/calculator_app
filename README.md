@@ -1,1 +1,1 @@
-Please have a look on master branch.
+Please run rspec.
