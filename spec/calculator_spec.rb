@@ -7,5 +7,11 @@ RSpec.describe StringCalculator do
         expect(StringCalculator.add("")).to eql(0)
       end
     end
+
+    context "given two numbers separated by comma" do
+      it "returns the sum of the two numbers" do
+        expect(StringCalculator.add("3,4")).to eql(7)
+      end
+    end
   end
 end
